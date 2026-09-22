@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery & Project Hub | Emarion Skills Training Dubai</title>
+  <meta name="description" content="Explore student STEM projects, autonomous drone testing, villa workshop highlights, and share your project photos with Emarion Dubai.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            emarion: {
+              navy: '#00205B',
+              darkNavy: '#0A2540',
+              midnight: '#0B192C',
+              iceBlue: '#F0F7FF',
+              iceDark: '#E6F0FA',
+              orange: '#FF6B00',
+              orangeHover: '#F25C00',
+              sky: '#00A8FF',
+              skyLight: '#BAE6FD',
+              slate: '#475569'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-white text-[#0B192C] font-sans antialiased overflow-x-hidden selection:bg-orange-500 selection:text-white">
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <aside aria-label="Location and Contact Information" class="bg-[#00205B] text-white text-xs py-2.5 px-4 border-b border-[#0A2540]">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center gap-2">
+        <span class="inline-block w-2 h-2 rounded-full bg-[#00A8FF] animate-beacon"></span>
+        <span class="font-medium text-slate-200">📍 M13 - Al Attar Grand Building, BurJuman Exit 3, Dubai, UAE</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="tel:+971565234578" class="hover:text-[#00A8FF] transition-colors flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-[#00A8FF]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          <span class="font-semibold">+971 56 523 4578</span>
+        </a>
+        <span class="text-blue-300/40 hidden sm:inline">|</span>
+        <a href="mailto:info@emarionskill.com" class="hover:text-[#00A8FF] transition-colors hidden md:flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-[#00A8FF]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          <span>info@emarionskill.com</span>
+        </a>
+        <span class="text-blue-300/40 hidden sm:inline">|</span>
+        <span class="text-amber-300 font-bold bg-amber-400/20 px-2 py-0.5 rounded text-[11px] border border-amber-400/30">KHDA Approved</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- STICKY PURE WHITE HEADER WITH EMARION ORIGINAL LOGO -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <a href="index.html" class="flex items-center gap-3 group">
+        <img src="images/emarion-logo.png" alt="Emarion Technical & Occupational Skills Training LLC" class="h-14 w-auto object-contain rounded-xl shadow-sm group-hover:scale-105 transition-transform duration-300">
+      </a>
+
+      <!-- DESKTOP NAV -->
+      <nav class="hidden lg:flex items-center gap-1 xl:gap-2">
+        <a href="index.html" class="px-3 py-2 text-sm font-semibold text-[#0B192C] hover:text-[#00A8FF] hover:bg-slate-50 rounded-lg transition-all">Home</a>
+        <a href="about.html" class="px-3 py-2 text-sm font-semibold text-[#0B192C] hover:text-[#00A8FF] hover:bg-slate-50 rounded-lg transition-all">About Us</a>
+        <a href="tracks.html" class="px-3 py-2 text-sm font-semibold text-[#0B192C] hover:text-[#00A8FF] hover:bg-slate-50 rounded-lg transition-all">Tech Tracks</a>
+        <a href="programs.html" class="px-3 py-2 text-sm font-semibold text-[#0B192C] hover:text-[#00A8FF] hover:bg-slate-50 rounded-lg transition-all">Youth Programs</a>
+        <a href="career.html" class="px-3 py-2 text-sm font-semibold text-[#0B192C] hover:text-[#00A8FF] hover:bg-slate-50 rounded-lg transition-all">Career Pathways</a>
+        <a href="institutional.html" class="px-3 py-2 text-sm font-semibold text-[#0B192C] hover:text-[#00A8FF] hover:bg-slate-50 rounded-lg transition-all">Institutional</a>
+        <a href="gallery.html" class="px-3 py-2 text-sm font-bold text-[#FF6B00] border-b-2 border-[#FF6B00]">Gallery Hub</a>
+        <a href="contact.html" class="px-3 py-2 text-sm font-semibold text-[#0B192C] hover:text-[#00A8FF] hover:bg-slate-50 rounded-lg transition-all">Contact Us</a>
+      </nav>
+
+      <!-- CTA BUTTON & MOBILE TOGGLE -->
+      <div class="flex items-center gap-3">
+        <button onclick="openEnrollModal('Gallery Inquiry')" class="px-6 py-2.5 rounded-xl bg-[#FF6B00] hover:bg-[#F25C00] text-white font-bold text-sm tracking-wide shadow-md shadow-orange-500/25 hover:scale-105 transition-all flex items-center gap-1.5">
+          <span>Enroll Now</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
+        </button>
+
+        <button id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" class="lg:hidden p-2 rounded-xl bg-slate-100 text-[#00205B] hover:bg-slate-200 focus:outline-none">
+          <svg class="w-6 h-6 menu-open-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg class="w-6 h-6 menu-close-icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- MOBILE MENU DRAWER -->
+    <div id="mobile-menu" class="lg:hidden hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-2 shadow-lg">
+      <a href="index.html" class="block px-3 py-2.5 rounded-xl text-base font-semibold text-slate-800 hover:text-[#00A8FF] hover:bg-slate-50">Home</a>
+      <a href="about.html" class="block px-3 py-2.5 rounded-xl text-base font-semibold text-slate-800 hover:text-[#00A8FF] hover:bg-slate-50">About Us</a>
+      <a href="tracks.html" class="block px-3 py-2.5 rounded-xl text-base font-semibold text-slate-800 hover:text-[#00A8FF] hover:bg-slate-50">Tech Tracks</a>
+      <a href="programs.html" class="block px-3 py-2.5 rounded-xl text-base font-semibold text-slate-800 hover:text-[#00A8FF] hover:bg-slate-50">Youth Programs</a>
+      <a href="career.html" class="block px-3 py-2.5 rounded-xl text-base font-semibold text-slate-800 hover:text-[#00A8FF] hover:bg-slate-50">Career Pathways</a>
+      <a href="institutional.html" class="block px-3 py-2.5 rounded-xl text-base font-semibold text-slate-800 hover:text-[#00A8FF] hover:bg-slate-50">Institutional</a>
+      <a href="gallery.html" class="block px-3 py-2.5 rounded-xl text-base font-bold text-[#FF6B00] bg-orange-50">Gallery Hub</a>
+      <a href="contact.html" class="block px-3 py-2.5 rounded-xl text-base font-semibold text-slate-800 hover:text-[#00A8FF] hover:bg-slate-50">Contact Us</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- MODULE 7.1: PAGE HERO -->
+    <section class="relative py-14 md:py-20 bg-white light-grid">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F0F7FF] border border-[#BAE6FD] text-[#00205B] text-xs font-bold mb-4">
+          <span>📸 Visual Showcase & Community Submissions</span>
+        </div>
+        <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#00205B] tracking-tight leading-tight mb-6">
+          Innovation in Action – <span class="text-gradient-orange">Life at Emarion</span>
+        </h1>
+        <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
+          Explore real student projects, lab experiments, villa workshops, and community robotics showcases across Dubai.
+        </p>
+      </div>
+    </section>
+
+    <!-- MODULE 7.2: FILTERABLE GALLERY GRID -->
+    <section class="py-12 bg-white border-t border-slate-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Filter Tabs -->
+        <div class="flex flex-wrap items-center justify-center gap-2.5 mb-12">
+          <button onclick="filterGallery('all')" class="gallery-filter-btn active px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-[#FF6B00] text-white shadow-md transition-all" data-filter="all">
+            ✨ All Photos
+          </button>
+          <button onclick="filterGallery('robotics')" class="gallery-filter-btn px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-[#F0F7FF] text-[#00205B] hover:bg-sky-100 border border-[#BAE6FD] transition-all" data-filter="robotics">
+            🤖 Robotics
+          </button>
+          <button onclick="filterGallery('drones')" class="gallery-filter-btn px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-[#F0F7FF] text-[#00205B] hover:bg-sky-100 border border-[#BAE6FD] transition-all" data-filter="drones">
+            🛸 Drones & AI
+          </button>
+          <button onclick="filterGallery('villa')" class="gallery-filter-btn px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-[#F0F7FF] text-[#00205B] hover:bg-sky-100 border border-[#BAE6FD] transition-all" data-filter="villa">
+            🏡 Villa Groups
+          </button>
+          <button onclick="filterGallery('adult')" class="gallery-filter-btn px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-[#F0F7FF] text-[#00205B] hover:bg-sky-100 border border-[#BAE6FD] transition-all" data-filter="adult">
+            🎓 Adult Trainees
+          </button>
+        </div>
+
+        <!-- Gallery Grid (Ice-Blue Container Cards #F0F7FF) -->
+        <div id="gallery-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <!-- Item 1: Robotics -->
+          <div class="gallery-item ice-card rounded-3xl overflow-hidden group" data-category="robotics">
+            <div class="h-56 bg-[#F0F7FF] flex items-center justify-center p-6 relative">
+              <svg class="w-36 h-36 animate-float" viewBox="0 0 120 120" fill="none">
+                <path d="M10 100 Q60 20 110 100" stroke="#CBD5E1" stroke-width="4" stroke-dasharray="6 4"/>
+                <rect x="35" y="45" width="50" height="30" rx="8" fill="#FFFFFF" stroke="#00A8FF" stroke-width="2"/>
+                <circle cx="45" cy="75" r="8" fill="#00205B"/>
+                <circle cx="75" cy="75" r="8" fill="#00205B"/>
+                <circle cx="60" cy="40" r="5" fill="#FF6B00"/>
+              </svg>
+              <span class="absolute top-3 left-3 text-[10px] font-bold px-2.5 py-1 rounded bg-sky-100 text-[#00A8FF] border border-sky-200">Robotics</span>
+            </div>
+            <div class="p-6 bg-white">
+              <h3 class="font-display font-bold text-[#00205B] text-lg">Autonomous Line Follower Arena</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">Students testing dual IR reflective sensors at our BurJuman center to guide chassis through complex curves.</p>
+            </div>
+          </div>
+
+          <!-- Item 2: Drones -->
+          <div class="gallery-item ice-card ice-card-orange rounded-3xl overflow-hidden group" data-category="drones">
+            <div class="h-56 bg-[#F0F7FF] flex items-center justify-center p-6 relative">
+              <svg class="w-36 h-36 animate-float-delay" viewBox="0 0 120 120" fill="none">
+                <line x1="20" y1="60" x2="100" y2="60" stroke="#94A3B8" stroke-width="3"/>
+                <line x1="60" y1="20" x2="60" y2="100" stroke="#94A3B8" stroke-width="3"/>
+                <ellipse cx="20" cy="60" rx="14" ry="4" fill="#FF6B00"/>
+                <ellipse cx="100" cy="60" rx="14" ry="4" fill="#FF6B00"/>
+                <ellipse cx="60" cy="20" rx="4" ry="14" fill="#FF6B00"/>
+                <ellipse cx="60" cy="100" rx="4" ry="14" fill="#FF6B00"/>
+                <circle cx="60" cy="60" r="14" fill="#FFFFFF" stroke="#00205B" stroke-width="2"/>
+              </svg>
+              <span class="absolute top-3 left-3 text-[10px] font-bold px-2.5 py-1 rounded bg-orange-100 text-[#FF6B00] border border-orange-200">Drones & AI</span>
+            </div>
+            <div class="p-6 bg-white">
+              <h3 class="font-display font-bold text-[#00205B] text-lg">Quadcopter Altitude Hold Calibrations</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">Barometric sensor calibration and PID flight stability testing in our indoor netted testing bay.</p>
+            </div>
+          </div>
+
+          <!-- Item 3: Villa Groups -->
+          <div class="gallery-item ice-card rounded-3xl overflow-hidden group" data-category="villa">
+            <div class="h-56 bg-[#F0F7FF] flex items-center justify-center p-6 relative">
+              <svg class="w-36 h-36 animate-float" viewBox="0 0 120 120" fill="none">
+                <path d="M20 70 L60 30 L100 70 V105 H20 Z" fill="#FFFFFF" stroke="#00205B" stroke-width="2"/>
+                <rect x="50" y="75" width="20" height="30" fill="#00205B"/>
+                <circle cx="60" cy="50" r="8" fill="#FF6B00"/>
+              </svg>
+              <span class="absolute top-3 left-3 text-[10px] font-bold px-2.5 py-1 rounded bg-sky-100 text-[#00A8FF] border border-sky-200">Villa Groups</span>
+            </div>
+            <div class="p-6 bg-white">
+              <h3 class="font-display font-bold text-[#00205B] text-lg">Arabian Ranches Villa Cohort</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">A neighborhood group of 14 students completing their smart home automation sensor network prototype.</p>
+            </div>
+          </div>
+
+          <!-- Item 4: Adult Trainees -->
+          <div class="gallery-item ice-card rounded-3xl overflow-hidden group" data-category="adult">
+            <div class="h-56 bg-[#F0F7FF] flex items-center justify-center p-6 relative">
+              <svg class="w-36 h-36 animate-float-delay" viewBox="0 0 120 120" fill="none">
+                <rect x="25" y="30" width="70" height="50" rx="6" fill="#FFFFFF" stroke="#00205B" stroke-width="2"/>
+                <polyline points="35,65 50,50 65,60 85,40" stroke="#10B981" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="85" cy="40" r="3" fill="#10B981"/>
+              </svg>
+              <span class="absolute top-3 left-3 text-[10px] font-bold px-2.5 py-1 rounded bg-blue-100 text-[#00205B] border border-blue-200">Adult Trainees</span>
+            </div>
+            <div class="p-6 bg-white">
+              <h3 class="font-display font-bold text-[#00205B] text-lg">AI Trainer Certification Practicum</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">Aspiring educators presenting capstone lesson plans and debugging student microcontroller codes.</p>
+            </div>
+          </div>
+
+          <!-- Item 5: Robotics 2 -->
+          <div class="gallery-item ice-card rounded-3xl overflow-hidden group" data-category="robotics">
+            <div class="h-56 bg-[#F0F7FF] flex items-center justify-center p-6 relative">
+              <svg class="w-36 h-36 animate-float" viewBox="0 0 120 120" fill="none">
+                <rect x="45" y="70" width="30" height="40" rx="4" fill="#FFFFFF" stroke="#00A8FF" stroke-width="2"/>
+                <circle cx="60" cy="45" r="12" fill="#FF6B00"/>
+              </svg>
+              <span class="absolute top-3 left-3 text-[10px] font-bold px-2.5 py-1 rounded bg-sky-100 text-[#00A8FF] border border-sky-200">Robotics</span>
+            </div>
+            <div class="p-6 bg-white">
+              <h3 class="font-display font-bold text-[#00205B] text-lg">Servo Robotic Arm & Gripper</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">Grade 8 team programmed a 4-degree-of-freedom robotic arm capable of sorting colored blocks.</p>
+            </div>
+          </div>
+
+          <!-- Item 6: Drones 2 -->
+          <div class="gallery-item ice-card rounded-3xl overflow-hidden group" data-category="drones">
+            <div class="h-56 bg-[#F0F7FF] flex items-center justify-center p-6 relative">
+              <svg class="w-36 h-36 animate-float-delay" viewBox="0 0 120 120" fill="none">
+                <rect x="25" y="25" width="70" height="70" rx="8" fill="#FFFFFF" stroke="#00205B" stroke-width="2"/>
+                <path d="M35 45 V35 H45 M75 35 H85 V45 M85 75 V85 H75 M45 85 H35 V75" stroke="#FF6B00" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="60" cy="60" r="14" fill="#F0F7FF" stroke="#00A8FF" stroke-width="2"/>
+              </svg>
+              <span class="absolute top-3 left-3 text-[10px] font-bold px-2.5 py-1 rounded bg-orange-100 text-[#FF6B00] border border-orange-200">Drones & AI</span>
+            </div>
+            <div class="p-6 bg-white">
+              <h3 class="font-display font-bold text-[#00205B] text-lg">Edge AI Computer Vision Rig</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">Real-time object classification running locally on a Raspberry Pi microcomputer with 98% accuracy.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MODULE 7.3: INTERACTIVE PHOTO UPLOAD CONTAINER (Dashed Blue Border Box) -->
+    <section class="py-16 bg-[#F0F7FF] border-t border-[#D1E9FF]">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-8">
+          <span class="text-xs font-bold tracking-widest text-[#FF6B00] uppercase bg-orange-50 px-3 py-1 rounded-full border border-orange-200">Community Hub</span>
+          <h2 class="font-display text-3xl font-bold text-[#00205B] mt-3">Share Your Kid's Project Photo</h2>
+          <p class="text-slate-600 text-sm mt-2">
+            Are you a parent, student, or branch instructor? Drag and drop classroom/home project photos here to be featured!
+          </p>
+        </div>
+
+        <!-- Dashed Blue Border Box (border-2 border-dashed border-sky-400 bg-sky-50) -->
+        <div id="drop-zone" class="border-2 border-dashed border-sky-400 bg-sky-50/70 hover:bg-sky-100/70 rounded-3xl p-8 sm:p-12 text-center transition-all duration-300 cursor-pointer relative group">
+          
+          <input type="file" id="file-input" accept="image/*" class="hidden">
+          
+          <!-- Bouncing Cloud Icon -->
+          <div class="w-16 h-16 mx-auto mb-4 rounded-2xl bg-white border border-sky-200 flex items-center justify-center text-[#00A8FF] shadow-sm group-hover:scale-110 transition-transform">
+            <svg class="w-8 h-8 animate-float" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
+            </svg>
+          </div>
+
+          <h3 class="font-display text-lg font-bold text-[#00205B] mb-1">Drag & Drop Project Photo Here</h3>
+          <p class="text-xs text-slate-500 mb-6">Supports PNG, JPG, WEBP up to 10MB</p>
+
+          <button type="button" onclick="document.getElementById('file-input').click()" class="px-6 py-3 rounded-xl bg-[#FF6B00] hover:bg-[#F25C00] text-white font-bold text-sm shadow-md shadow-orange-500/25 transition-all">
+            Upload Photo >
+          </button>
+
+          <!-- Selected File Preview -->
+          <div id="upload-preview" class="hidden mt-6 p-4 rounded-2xl bg-white border border-sky-300 max-w-md mx-auto text-left shadow-md">
+            <div class="flex items-center gap-4">
+              <img id="preview-img" src="" alt="Project Preview" class="w-16 h-16 rounded-xl object-cover border border-slate-200">
+              <div class="flex-1 overflow-hidden">
+                <p id="preview-filename" class="text-xs font-bold text-[#00205B] truncate"></p>
+                <p class="text-[11px] text-[#00A8FF]">Ready to post to Emarion Community</p>
+              </div>
+            </div>
+            <div class="mt-3 flex gap-2">
+              <input type="text" id="project-title-input" placeholder="Project Caption (e.g. Rayan's Robot Rover)" class="w-full px-3 py-2 rounded-xl bg-[#F0F7FF] border border-[#BAE6FD] text-xs text-[#00205B] focus:outline-none focus:border-[#FF6B00]">
+              <button id="confirm-upload-btn" class="px-5 py-2 rounded-xl bg-[#FF6B00] text-white font-bold text-xs shrink-0 hover:bg-[#F25C00]">Post</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- GLOBAL FOOTER (Deep Emarion Navy) -->
+  <footer class="bg-[#00205B] text-slate-300 pt-16 pb-12 border-t border-[#0A2540] navy-grid">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <div>
+          <a href="index.html" class="inline-block mb-4">
+            <img src="images/emarion-logo.png" alt="Emarion Technical & Occupational Skills Training LLC" class="h-14 w-auto object-contain">
+          </a>
+          <p class="text-xs text-slate-300 leading-relaxed mb-4">
+            Emarion Technical & Occupational Skills Training LLC is a licensed premier education center in Dubai, empowering K-12 students, adults, and institutions with future-ready STEM, AI, and robotics skills.
+          </p>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-amber-400/15 border border-amber-400/30 text-amber-300 text-xs font-bold">
+            <span>🇦🇪 KHDA Approved Dubai Institute</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-display text-white text-sm font-bold uppercase tracking-wider mb-4">Site Navigation</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="index.html" class="hover:text-[#FF6B00] transition-colors">Home Portal</a></li>
+            <li><a href="about.html" class="hover:text-[#FF6B00] transition-colors">About & Methodology</a></li>
+            <li><a href="tracks.html" class="hover:text-[#FF6B00] transition-colors">Technology Tracks (6 Fields)</a></li>
+            <li><a href="programs.html" class="hover:text-[#FF6B00] transition-colors">Youth & Villa Programs</a></li>
+            <li><a href="career.html" class="hover:text-[#FF6B00] transition-colors">Adult Career Restart</a></li>
+            <li><a href="institutional.html" class="hover:text-[#FF6B00] transition-colors">School & Franchise B2B</a></li>
+            <li><a href="gallery.html" class="text-[#FF6B00] font-bold">Project Gallery Hub</a></li>
+            <li><a href="contact.html" class="hover:text-[#FF6B00] transition-colors">Contact & Location</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-display text-white text-sm font-bold uppercase tracking-wider mb-4">Accreditation & Standards</h4>
+          <div class="space-y-3 text-xs">
+            <div class="p-3 rounded-xl bg-[#0A2540] border border-blue-900/40">
+              <p class="text-white font-bold">KHDA Approved (Dubai, UAE)</p>
+              <p class="text-[11px] text-slate-300 mt-0.5">Government licensed technical & vocational educational provider.</p>
+            </div>
+            <div class="p-3 rounded-xl bg-[#0A2540] border border-blue-900/40">
+              <p class="text-white font-bold">Skill London (UK Standards)</p>
+              <p class="text-[11px] text-slate-300 mt-0.5">Curriculum benchmarked with British technical training criteria.</p>
+            </div>
+            <div class="p-3 rounded-xl bg-[#0A2540] border border-blue-900/40">
+              <p class="text-white font-bold">Engineering Tutors Network</p>
+              <p class="text-[11px] text-slate-300 mt-0.5">Active academic exchange bridging UK and Indian universities.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-display text-white text-sm font-bold uppercase tracking-wider mb-4">Dubai Innovation Center</h4>
+          <ul class="space-y-3 text-xs">
+            <li class="flex items-start gap-2.5"><span class="text-[#FF6B00] mt-0.5">📍</span><span>M13 - Al Attar Grand Building, BurJuman Exit 3, Dubai, United Arab Emirates</span></li>
+            <li class="flex items-center gap-2.5"><span class="text-[#00A8FF]">📞</span><a href="tel:+971565234578" class="text-white hover:text-[#00A8FF] font-semibold">+971 56 523 4578</a></li>
+            <li class="flex items-center gap-2.5"><span class="text-[#00A8FF]">✉️</span><a href="mailto:info@emarionskill.com" class="text-white hover:text-[#00A8FF]">info@emarionskill.com</a></li>
+            <li class="flex items-center gap-2.5"><span class="text-[#00A8FF]">🌐</span><a href="https://www.emarionskill.com" target="_blank" class="text-white hover:text-[#00A8FF]">www.emarionskill.com</a></li>
+            <li class="flex items-center gap-2.5"><span class="text-[#FF6B00]">📲</span><span class="text-slate-300">Socials: @emarionskills</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-[#0A2540] flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400">
+        <p>© 2026 Emarion Technical & Occupational Skills Training LLC. All Rights Reserved.</p>
+        <p>Crafted for Future Engineers & Visionaries in Dubai, UAE.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- UNIVERSAL MODAL -->
+  <div id="enrollment-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4">
+    <div id="modal-backdrop" class="fixed inset-0 bg-[#00205B]/60 backdrop-blur-sm transition-opacity"></div>
+    <div class="relative w-full max-w-lg rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-2xl z-10 max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between pb-4 border-b border-slate-100">
+        <div>
+          <h3 class="font-display text-xl font-bold text-[#00205B]">Join the Innovation Hub</h3>
+          <p class="text-xs text-slate-500 mt-1">Book your free trial class or villa workshop.</p>
+        </div>
+        <button id="close-modal-btn" aria-label="Close modal dialog" class="p-2 rounded-xl text-slate-400 hover:text-[#00205B] hover:bg-slate-100 transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <form id="modal-enrollment-form" class="mt-6 space-y-4">
+        <div>
+          <label for="modal-student-name" class="block text-xs font-bold text-[#00205B] mb-1">Full Name *</label>
+          <input type="text" id="modal-student-name" required placeholder="Participant Name" class="w-full px-4 py-3 rounded-xl bg-[#F0F7FF] border border-[#BAE6FD] text-[#00205B] text-sm focus:border-[#FF6B00] focus:outline-none">
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label for="modal-guardian-name" class="block text-xs font-bold text-[#00205B] mb-1">Parent / Guardian</label>
+            <input type="text" id="modal-guardian-name" placeholder="Optional" class="w-full px-4 py-3 rounded-xl bg-[#F0F7FF] border border-[#BAE6FD] text-[#00205B] text-sm focus:border-[#FF6B00] focus:outline-none">
+          </div>
+          <div>
+            <label for="modal-phone" class="block text-xs font-bold text-[#00205B] mb-1">WhatsApp / Phone *</label>
+            <input type="tel" id="modal-phone" required placeholder="+971 50 000 0000" class="w-full px-4 py-3 rounded-xl bg-[#F0F7FF] border border-[#BAE6FD] text-[#00205B] text-sm focus:border-[#FF6B00] focus:outline-none">
+          </div>
+        </div>
+        <div>
+          <label for="modal-track-select" class="block text-xs font-bold text-[#00205B] mb-1">Select Program *</label>
+          <select id="modal-track-select" class="w-full px-4 py-3 rounded-xl bg-[#F0F7FF] border border-[#BAE6FD] text-[#00205B] text-sm focus:border-[#FF6B00] focus:outline-none">
+            <option value="General STEM Trial">General STEM Trial Session</option>
+            <option value="Robotics & Automation">Robotics & Automation</option>
+            <option value="Drone Technology">Drone Technology</option>
+            <option value="Robotics Villa Program">Robotics Villa Program</option>
+          </select>
+        </div>
+        <button type="submit" class="w-full py-4 rounded-xl bg-[#FF6B00] hover:bg-[#F25C00] text-white font-bold text-sm shadow-lg shadow-orange-500/25 transition-all flex items-center justify-center gap-2">
+          <span>Connect via WhatsApp ></span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+
+  <!-- Gallery Filter & Drag and Drop Upload Scripts -->
+  <script>
+    function filterGallery(category) {
+      const items = document.querySelectorAll('.gallery-item');
+      const buttons = document.querySelectorAll('.gallery-filter-btn');
+
+      buttons.forEach(btn => {
+        if (btn.getAttribute('data-filter') === category) {
+          btn.className = "gallery-filter-btn active px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-[#FF6B00] text-white shadow-md transition-all";
+        } else {
+          btn.className = "gallery-filter-btn px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-[#F0F7FF] text-[#00205B] hover:bg-sky-100 border border-[#BAE6FD] transition-all";
+        }
+      });
+
+      items.forEach(item => {
+        if (category === 'all' || item.getAttribute('data-category') === category) {
+          item.style.display = 'flex';
+          item.classList.add('animate-float-badge');
+          setTimeout(() => item.classList.remove('animate-float-badge'), 500);
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    const dropZone = document.getElementById('drop-zone');
+    const fileInput = document.getElementById('file-input');
+    const uploadPreview = document.getElementById('upload-preview');
+    const previewImg = document.getElementById('preview-img');
+    const previewFilename = document.getElementById('preview-filename');
+    const confirmUploadBtn = document.getElementById('confirm-upload-btn');
+    const titleInput = document.getElementById('project-title-input');
+
+    ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+      dropZone.addEventListener(eventName, (e) => { e.preventDefault(); e.stopPropagation(); }, false);
+    });
+
+    ['dragenter', 'dragover'].forEach(eventName => {
+      dropZone.addEventListener(eventName, () => dropZone.classList.add('border-[#FF6B00]', 'bg-orange-50/50'), false);
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+      dropZone.addEventListener(eventName, () => dropZone.classList.remove('border-[#FF6B00]', 'bg-orange-50/50'), false);
+    });
+
+    dropZone.addEventListener('drop', (e) => {
+      const dt = e.dataTransfer;
+      if (dt.files.length) processFile(dt.files[0]);
+    });
+
+    fileInput.addEventListener('change', function() {
+      if (this.files.length) processFile(this.files[0]);
+    });
+
+    function processFile(file) {
+      if (!file.type.startsWith('image/')) {
+        showToast('Invalid File Type', 'Please choose an image file (PNG, JPG, WEBP).', 'warning');
+        return;
+      }
+      previewFilename.textContent = file.name;
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        previewImg.src = e.target.result;
+        uploadPreview.classList.remove('hidden');
+        titleInput.value = file.name.split('.')[0];
+      };
+      reader.readAsDataURL(file);
+    }
+
+    confirmUploadBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const title = titleInput.value.trim() || 'Student Project';
+      
+      const newCard = document.createElement('div');
+      newCard.className = 'gallery-item ice-card rounded-3xl overflow-hidden group animate-float-badge';
+      newCard.setAttribute('data-category', 'robotics');
+      newCard.innerHTML = `
+        <div class="h-56 bg-[#F0F7FF] flex items-center justify-center p-2 relative overflow-hidden">
+          <img src="${previewImg.src}" alt="${title}" class="w-full h-full object-cover rounded-2xl">
+          <span class="absolute top-3 left-3 text-[10px] font-bold px-2.5 py-1 rounded-md bg-[#FF6B00] text-white">Community Post</span>
+        </div>
+        <div class="p-6 bg-white">
+          <h3 class="font-display font-bold text-[#00205B] text-lg">${title}</h3>
+          <p class="text-xs text-slate-500 mt-2">Uploaded just now by community member. Approved for Dubai wall showcase.</p>
+        </div>
+      `;
+
+      const galleryGrid = document.getElementById('gallery-grid');
+      galleryGrid.prepend(newCard);
+
+      uploadPreview.classList.add('hidden');
+      fileInput.value = '';
+      showToast('Photo Uploaded!', `"${title}" is now live on the community showcase!`, 'success');
+    });
+  </script>
+</body>
+</html>
